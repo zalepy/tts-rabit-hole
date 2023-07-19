@@ -37,9 +37,23 @@ VQVAE differs from VAEs in two key ways:
 2. The prior is learnt rather than static. 
 
 In order to learn a discrete latent representation, we incorporate ideas from vector quantisation (VQ).
-\
-The way I understand is: In other VAE we produce vectors, that define a latent space. 
+
+TODO:
+1. check [Vector Quantized Time Series Generation with a Bidirectional Prior Model](https://arxiv.org/abs/2303.04743)
+2. then revise the note below
+
+
+
+
+
+
+_The way I understand is: In other VAE we produce vectors, that define a latent space. 
 In here we **construct** a latent space, and instead of having preset of fixed tokens to encode vectors,
 we train an encoder (and decoder) that produces vectors for the constructed latent space. 
 During training the error is computed between original and decoded sample, 
-so error trains both the encoder and the decoder at the same time.  
+so error trains both the encoder and the decoder at the same time._  
+
+
+Data sources:
+LibriTTS:  https://www.openslr.org/60/
+Hi-Fi TTS: https://www.openslr.org/109/
