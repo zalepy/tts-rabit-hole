@@ -54,6 +54,10 @@ During training the error is computed between original and decoded sample,
 so error trains both the encoder and the decoder at the same time._  
 
 
-Data sources:
-LibriTTS:  https://www.openslr.org/60/
+Data sources:\
+LibriTTS:  https://www.openslr.org/60/ \
 Hi-Fi TTS: https://www.openslr.org/109/
+
+
+Transformers
+[Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf) - a "kids explanation" at https://www.youtube.com/watch?v=zxQyTK8quyY
